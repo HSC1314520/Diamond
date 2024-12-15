@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DiamondDemo</string>
+
+    <string name="base">Base</string>
+    <string name="base_mvvm">Base-MVVM</string>
+    <string name="mvvm_framework">MVVM Framework</string>
+    <string name="activity">Activity</string>
+    <string name="fragment">Fragment</string>
+    <string name="show_toast">Show toast</string>
+    <string name="show_loading_view">Show loading view</string>
+    <string name="loading">Loading</string>
+    <string name="uploading">Uploading</string>
+</resources>
