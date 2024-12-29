@@ -37,7 +37,7 @@ class MVVMFragment : BaseViewModelFragment<FragmentMvvmBinding, MVVMFragmentView
         mViewBinding.btnShowLoadingView.setOnClickListener {
             showLoadingView(R.string.uploading)
             mMainHandler.postDelayed({
-                mViewModel.dismissLoadingView()
+                mViewModel.dismissViewModelLoading()
             }, 3000)
         }
     }

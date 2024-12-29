@@ -16,4 +16,8 @@ import javax.inject.Inject
 class MVVMFragmentViewModel @Inject constructor(
     application: Application
 ): BaseViewModel(application) {
+
+    fun dismissViewModelLoading() {
+        dismissLoadingView()
+    }
 }

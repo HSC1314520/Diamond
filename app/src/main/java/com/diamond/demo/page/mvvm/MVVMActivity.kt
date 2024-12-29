@@ -58,9 +58,9 @@ class MVVMActivity : BaseViewModelActivity<ActivityMvvmBinding, MVVMActivityView
             mViewModel.showViewModelApplication()
         }
         mViewBinding.btnShowLoadingView.setOnClickListener {
-            mViewModel.showLoadingView()
+            mViewModel.showViewModelLoading()
             mMainHandler.postDelayed({
-                mViewModel.dismissLoadingView()
+                mViewModel.dismissViewModelLoading()
             }, 3000)
         }
     }

@@ -21,4 +21,12 @@ class MVVMActivityViewModel @Inject constructor(
     fun showViewModelApplication() {
         sendMessage("Application: ${getApplication<CustomizeApplication>()}")
     }
+
+    fun showViewModelLoading() {
+        showLoadingView()
+    }
+
+    fun dismissViewModelLoading() {
+        dismissLoadingView()
+    }
 }
