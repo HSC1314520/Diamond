@@ -1,7 +1,7 @@
 package com.diamond.demo.base
 
 import android.app.Application
-import com.diamond.base.mvvm.DiamondBaseAndroidViewModel
+import com.bnist.diamond.mvvm.DiamondBaseAndroidViewModel
 
 /**
  * Description: [androidx.lifecycle.AndroidViewModel] base class.

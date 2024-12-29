@@ -1,4 +1,4 @@
-package com.diamond.base.utils
+package com.bnist.diamond.utils
 
 import android.content.Context
 import android.widget.Toast

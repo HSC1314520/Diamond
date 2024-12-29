@@ -1,4 +1,4 @@
-package com.diamond.base.mvvm
+package com.bnist.diamond.mvvm
 
 /**
  * Description: The [DiamondBaseViewModelFragment] interfaces.

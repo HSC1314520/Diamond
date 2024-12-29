@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.annotation.StyleRes
 import androidx.annotation.UiContext
 import androidx.databinding.ViewDataBinding
-import com.diamond.base.DiamondBaseViewBindingDialog
+import com.bnist.diamond.DiamondBaseViewBindingDialog
 import com.diamond.demo.R
 
 /**

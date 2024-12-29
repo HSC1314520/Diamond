@@ -1,4 +1,4 @@
-package com.diamond.base.mvvm
+package com.bnist.diamond.mvvm
 
 import androidx.lifecycle.ViewModel
 import java.lang.reflect.ParameterizedType

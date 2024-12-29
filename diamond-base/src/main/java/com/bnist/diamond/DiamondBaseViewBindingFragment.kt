@@ -1,4 +1,4 @@
-package com.diamond.base
+package com.bnist.diamond
 
 import android.os.Bundle
 import android.view.LayoutInflater

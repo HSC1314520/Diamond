@@ -1,4 +1,4 @@
-package com.diamond.base
+package com.bnist.diamond
 
 import android.widget.Toast
 import androidx.annotation.StringRes

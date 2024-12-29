@@ -1,19 +1,19 @@
-package com.diamond.base
+package com.bnist.diamond
 
 import android.os.Bundle
 
 /**
- * Description: The [DiamondBaseDialog] interfaces.
+ * Description: The [DiamondBaseActivity] interfaces.
  *
  * @author BigTree
  * @date 2024/9/21
  * @since 1.0.0
- * @see DiamondBaseDialog
+ * @see DiamondBaseActivity
  */
-interface IDiamondBaseDialog {
+interface IDiamondBaseActivity : IPageToast, IPageLoadingView {
 
     /**
-     * Dialog layout xml resource id.
+     * Page layout xml resource id.
      */
     fun getResourceId(): Int
 
@@ -24,26 +24,26 @@ interface IDiamondBaseDialog {
     }
 
     /**
-     * Some initialization of the dialog.
+     * Some initialization of the page.
      */
     fun initialize(savedInstanceState: Bundle?) {
         initializeView(savedInstanceState)
     }
 
     /**
-     * Initialize dialog view.
+     * Initialize page view.
      */
     fun initializeView(savedInstanceState: Bundle?)
 
     /**
-     * Set the dialog content layout resource.
+     * Set the page content layout resource.
      */
     fun setContentView()
 
     /**
-     * Intercept dialog [initialize] method.
+     * Intercept page [initialize] method.
      *
-     * Initializing the dialog view will be terminated.
+     * Initializing the page view will be terminated.
      *
      * @return true - intercept; false - nonintercept
      */

@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.diamond.base.mvvm"
+    namespace = "com.bnist.diamond.mvvm"
     compileSdk = 34
 
     defaultConfig {

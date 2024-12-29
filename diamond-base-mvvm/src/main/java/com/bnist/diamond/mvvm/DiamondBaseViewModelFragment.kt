@@ -1,4 +1,4 @@
-package com.diamond.base.mvvm
+package com.bnist.diamond.mvvm
 
 import android.os.Bundle
 import androidx.annotation.MainThread
@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProvider.Factory
 import androidx.lifecycle.ViewModelStoreOwner
 import androidx.lifecycle.viewmodel.CreationExtras
-import com.diamond.base.DiamondBaseViewBindingFragment
+import com.bnist.diamond.DiamondBaseViewBindingFragment
 
 /**
  * Description: [Fragment] base classes based on the MVVM framework.

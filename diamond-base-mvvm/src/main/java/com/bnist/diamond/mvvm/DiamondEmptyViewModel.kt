@@ -1,4 +1,4 @@
-package com.diamond.base.mvvm
+package com.bnist.diamond.mvvm
 
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

@@ -1,9 +1,9 @@
-package com.diamond.base
+package com.bnist.diamond
 
 import android.app.Dialog
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.diamond.base.utils.ToastUtils
+import com.bnist.diamond.utils.ToastUtils
 
 /**
  * Description: [android.app.Activity] base class.

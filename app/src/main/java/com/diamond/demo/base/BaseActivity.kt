@@ -3,7 +3,7 @@ package com.diamond.demo.base
 import androidx.annotation.StringRes
 import androidx.annotation.UiThread
 import androidx.databinding.ViewDataBinding
-import com.diamond.base.DiamondBaseViewBindingActivity
+import com.bnist.diamond.DiamondBaseViewBindingActivity
 import com.diamond.demo.R
 
 /**

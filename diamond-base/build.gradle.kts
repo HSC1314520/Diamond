@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.diamond.base"
+    namespace = "com.bnist.diamond"
     compileSdk = 34
 
     defaultConfig {

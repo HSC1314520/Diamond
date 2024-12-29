@@ -1,4 +1,4 @@
-package com.diamond.base
+package com.bnist.diamond
 
 import android.app.Dialog
 import androidx.annotation.UiThread

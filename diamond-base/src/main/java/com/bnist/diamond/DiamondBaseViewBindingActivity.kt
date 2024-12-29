@@ -1,4 +1,4 @@
-package com.diamond.base
+package com.bnist.diamond
 
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding

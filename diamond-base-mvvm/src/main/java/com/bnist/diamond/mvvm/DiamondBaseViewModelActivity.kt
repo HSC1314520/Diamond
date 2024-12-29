@@ -1,4 +1,4 @@
-package com.diamond.base.mvvm
+package com.bnist.diamond.mvvm
 
 import android.app.Activity
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelLazy
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProvider.Factory
 import androidx.lifecycle.viewmodel.CreationExtras
-import com.diamond.base.DiamondBaseViewBindingActivity
+import com.bnist.diamond.DiamondBaseViewBindingActivity
 
 /**
  * Description: [Activity] base classes based on the MVVM framework.
