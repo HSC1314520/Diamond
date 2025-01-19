@@ -5,14 +5,15 @@ plugins {
     alias(libs.plugins.google.dagger.hilt)
 }
 
+apply {
+    from(rootProject.file("gradle/build_library.gradle"))
+}
+
 android {
     namespace = "com.diamond.demo"
-    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.diamond.demo"
-        minSdk = 21
-        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -26,15 +27,6 @@ android {
         dataBinding = true
     }
 
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-        }
-    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8

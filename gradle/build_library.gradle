@@ -1,0 +1,43 @@
+/**
+ * Optional android application/libraries gradle file
+ *
+ * Simply apply from: rootProject.file('gradle/build_library.gradle') if needed
+ */
+android {
+    compileSdkVersion libs.versions.android.compileSdk.get().toInteger()
+
+    defaultConfig {
+        minSdkVersion libs.versions.android.minSdk.get().toInteger()
+        targetSdkVersion libs.versions.android.targetSdk.get().toInteger()
+    }
+
+    signingConfigs {
+        configDebug {
+            keyAlias 'key0'
+            keyPassword 'diamond.bnist'
+            storeFile rootProject.file('debug.keystore')
+            storePassword 'diamond.bnist'
+        }
+
+        configRelease {
+            keyAlias 'key0'
+            keyPassword 'diamond.bnist'
+            storeFile rootProject.file('debug.keystore')
+            storePassword 'diamond.bnist'
+        }
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            signingConfig signingConfigs.configDebug
+            minifyEnabled false
+        }
+        release {
+            signingConfig signingConfigs.configRelease
+            minifyEnabled false
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+            proguardFile project.file('proguard-rules-android-lib.pro') // NOTE: default rules for android library if this file exists
+        }
+    }
+}
