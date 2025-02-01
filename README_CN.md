@@ -23,7 +23,7 @@ Android 基类框架：Diamond
 
 |   模块   |                         diamond-base                         |                         diamond-mvvm                         |
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 最新版本 | [![Download](https://maven-badges.herokuapp.com/maven-central/com.bnist/diamond-base/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.bnist/diamond-base) | [![Download](https://maven-badges.herokuapp.com/maven-central/com.bnist/diamond-mvvm/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.bnist/diamond-mvvm) |
+| 最新版本 | [![Download](https://img.shields.io/maven-central/v/com.bnist/diamond-base.svg)](https://central.sonatype.com/artifact/com.bnist/diamond-base) | [![Download](https://img.shields.io/maven-central/v/com.bnist/diamond-mvvm.svg)](https://central.sonatype.com/artifact/com.bnist/diamond-mvvm) |
 
 推荐使用Maven：
 
